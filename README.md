@@ -4,14 +4,23 @@ using next.js and tailwind css
 
 ## 🚀 Initialize
 creating next app
+
 ```npx create-next-app@latest app_name```
+
 ```cd app_name```
+
 installing tailwind css
-```npm install -D tailwindcss postcss autoprefixer```
-```npx tailwindcss init -p```
+
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
 installing next-auth
-```npm install next-auth@beta```
-```npx auth secret```
+```bash
+npm install next-auth@beta
+npx auth secret
+```
 
 ## Getting Started
 First, run the development server:
