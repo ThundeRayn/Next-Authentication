@@ -1,7 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## brief
+This is an authentication and navbar prototype 
+using next.js and tailwind css
+
+## 🚀 Initialize
+creating next app
+```npx create-next-app@latest app_name```
+```cd app_name```
+installing tailwind css
+```npm install -D tailwindcss postcss autoprefixer```
+```npx tailwindcss init -p```
+installing next-auth
+```npm install next-auth@beta```
+```npx auth secret```
 
 ## Getting Started
-
 First, run the development server:
 
 ```bash
@@ -20,14 +32,6 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
