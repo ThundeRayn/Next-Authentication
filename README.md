@@ -2,12 +2,16 @@
 This is an authentication and navbar prototype 
 using next.js and tailwind css
 
+## my reference at obsidian notes
+[[Next Authentication]]
+
 ## 🚀 Initialize
 creating next app
 
-```npx create-next-app@latest app_name```
-
-```cd app_name```
+```bash
+npx create-next-app@latest app_name
+cd app_name
+```
 
 installing tailwind css
 
@@ -20,6 +24,7 @@ installing next-auth
 ```bash
 npm install next-auth@beta
 npx auth secret
+# will add Auth_Secret to your .env.local
 ```
 
 ## Getting Started
